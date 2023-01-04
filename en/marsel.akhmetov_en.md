@@ -6,7 +6,7 @@
 * Email: marsel.ahmetov974@gmail.com
 * Telegram: [t.me/mokaruuns](https://t.me/mokaruuns)
 * GitHub: [github.com/mokaruuns](https://github.com/mokaruuns)
-* LinkedIn: [www.linkedin.com/in/marsel-akhmetov-b71498219/](https://www.linkedin.com/in/marsel-akhmetov-b71498219/)
+* LinkedIn: [www.linkedin.com/in/marsel-akhmetov/](https://www.linkedin.com/in/marsel-akhmetov/)
 
 ## Education:
 
