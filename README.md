@@ -1,6 +1,5 @@
 ## English version
-- [pdf](en/marsel_akhmetov_en.pdf) - actual version
-- [md](en/marsel_akhmetov_en.md) - markdown source
+- [pdf](en/marsel_akhmetov_cv_en.pdf) - actual version
 - [tex](en/marsel_akhmetov_en.tex) - latex source for pdf
 
 

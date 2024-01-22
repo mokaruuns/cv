@@ -38,28 +38,28 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-3pt}\scshape\raggedright\large
+    \vspace{-3pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
-  }
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
 }
 
 \newcommand{\resumeItemWithoutTitle}[1]{
-  \item\small{
-    {\vspace{-2pt}}
-  }
+    \item\small{
+            {\vspace{-2pt}}
+    }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
+    \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+        \textbf{#1}       & #2                 \\
+        \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -76,124 +76,89 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\LARGE Marsel Akhmetov}} & Email : \href{mailto:marsel.ahmetov974@gmail.com}{marsel.ahmetov974@gmail.com}\\
-  \href{https://www.linkedin.com/in/marsel-akhmetov/}{Linkedin: https://www.linkedin.com/in/marsel-akhmetov/} & Mobile : +7-900-628-33-27 \\
-  \href{https://github.com/mokaruuns}{Github: https://github.com/mokaruuns} \\
+\textbf{{\LARGE Marsel Akhmetov}} & Email : \href{mailto:marsel.ahmetov974@gmail.com}{marsel.ahmetov974@gmail.com}\\
+\href{https://www.linkedin.com/in/marsel-akhmetov/}{Linkedin: https://www.linkedin.com/in/marsel-akhmetov/} & Mobile : +7-900-628-33-27 \\
+\href{https://github.com/mokaruuns}{Github: https://github.com/mokaruuns} \\
+\href{https://github.com/mokaruuns}{Telegram: https://t.me/mokaruuns} \\
 \end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{VK, MyTracker}{Saint-Petersburg, Russia}
+{Junior fullstack developer}{March 2022 - Current}
+\resumeItemListStart
+\resumeItem{Enhancement of Infrastructure Monitoring Service}
+{Significantly contributed to enhancing our internal monitoring tool by adding new features that enriched data collection. This allowed management and decision-makers to more effectively gauge the need for server equipment purchases, facilitating timely and informed infrastructure upgrades.}
+\resumeItem{Optimization of Birth Date Data Storage}
+{Re-engineered the storage method for birth date information, greatly improving the accuracy of our user analytics. This led to more effective targeted marketing campaigns, enhancing user engagement and marketing ROI.}
+\resumeItem{Contribution to E-Commerce API Development}{Played a crucial role in the development of a s2s-api for e-commerce platforms, contributing to better data integration. This initiative provided valuable insights for marketing optimization and supported more efficient, data-driven decision-making.}
+\resumeItem{Development of a Weekly Report Generation Service}{Created a service for generating weekly reports on team members' tasks, aimed at improving the monitoring of team performance. This tool has been instrumental in increasing transparency and accountability within the team, leading to enhanced productivity and project management efficiency.}
+\resumeItemListEnd
+{In my role at MyTracker, my focus was on backend development, which included enhancing data processing workflows, integrating with partners, and developing robust APIs. My work primarily involved PHP and MySQL, and I also expanded my skills with NoSQL and columnar databases, contributing significantly to the efficiency and capability of our analytics platform.}
+\resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {ITMO University}{St. Petersburg, Russia}
-      {Master's degree in Computer Science}{Sep 2020 - current}
-      
-	   {\scriptsize \textit{
-        Courses: 
-            Operating Systems, 
-            Programming Languages(Java, C/C++),
-            Data Structures and Algorithms,
-            Web Development,
-            Data Analysis,
-            Probability Theory and Mathematical Statistics
-       }}
-	    
+\resumeSubHeadingListStart
+\resumeSubheading
+{ITMO University}{St. Petersburg, Russia}
+{Bachelor of Science in Computer Science}{Sep 2020 - current}
+
+{\scriptsize \textit{
+Courses:
+Operating Systems,
+Data Structures and Algorithms,
+Web Development,
+Database Fundamentals,
+Software Engineering
+}}
 \resumeSubHeadingListEnd
 
 %
 %--------PROGRAMMING SKILLS------------
 \section{Skills Summary}
-	\resumeSubHeadingListStart
-	\resumeSubItem{Languages}{Python, Java, PHP, C/C++, SQL, Bash}
-    \resumeSubItem{Tools}{Git, Docker, Linux, LaTex}
-    \resumeSubItem{Knowledge}{Data Structures and Algorithms, Data Analysis, Probability Theory and Mathematical Statistics, OOP}
+\resumeSubHeadingListStart
+\resumeSubItem{Hardware skills}{Python, FastAPI, AsyncIO, Celery, PHP, Symfony, PostgreSQL, GitFlow, Docker, GraphQL, React }
+\resumeSubItem{Soft skills}{rapid project adaptation, product responsibility, teamwork}
 \resumeSubHeadingListEnd
 
-
-
-%-----------EXPERIENCE-----------------
-% \section{Experience}
-%   \resumeSubHeadingListStart
-%     \resumeSubheading
-%     {VMware}{Palo Alto, CA}
-%     {Member Of Technical Staff }{Feb 2017 -  Current}
-%     \resumeItemListStart
-%         \resumeItem{Events and Alert Manager}
-%           {Network Fabric Controller is a logically centralized software controller to manage a distributed physical network fabric or a physical network underlay. Designed and developed a library which can be used by any services within Network Fabric Controller to generate events and raise alerts for NFC managed objects. The events and alerts are displayed on the NFC dashboard.}
-%           \resumeItem{Upgrade NFC}
-%           {Designed and developed an over-the-air and air-gapped upgrade mechanism that is used to upgrade the single node Network Fabric Controller cluster.}
-%           \resumeItem{Health Monitoring System}{Designed and developed a monitoring service which is responsible for monitoring the health of all the micro services running inside NFC cluster.}
-%           \resumeItem{CLI framework}{Developed an internal command line interface tool which provides a set of commands specific to Network Fabric Controller projects to get the system health, logs and current resource utilization. It can be easily extended to perform various other actions.}
-%           \resumeItem{Bootstrap NFC}{Network Fabric Controller is composed of several micro services deployed on the Kubernetes pods on a single-node cluster. Designed and implemented the bootstrapping mechanism to package all the services and deploy on the Kubernetes environment.}
-%           \resumeItem{Install/Upgrade/Uninstall NSX agent}{Worked on install, upgrade and uninstall mechanism of NSX agent on workload VMs deployed on NSX cross cloud environment.}
-%           \resumeItem{AppDiscovery}{Worked on application profiling feature which provides visualization and details of which processes inside a workload VM are communicating on the network.}
-%       \resumeItemListEnd
-      
-%     \resumeSubheading
-% 		{Stony Brook University}{Stony Brook, NY}
-% 		{Research Assistant - Prof. Erez Zadok }{May 2016 -  August 2016}
-% 		\resumeItemListStart
-%         \resumeItem{System Call Trace Record/Replay}
-%           {Worked on building a trace replayer at system call level to reproduce system call operations that were captured during a specific workload using C, C++, DataSeries. Developed a wrapper class that makes C++ functions callable by strace C code.}
-% 		\resumeItemListEnd
-
-%     \resumeSubheading
-%     {Samsung Research Institute}{Noida, India}
-%     {Software Developer Engineer}{Jun 2012 - July 2015}
-%     \resumeItemListStart
-%     \resumeItem{Android File System}{}
-%     \begin{description}[font=$\bullet$]
-%     \item {Involved in board bring-up activities for Android Smart phones based on Exynos and Broadcom chipsets on Android version 4.3 Jelly Bean to Android 5.0 Lollipop.}
-%     \item {Experienced in porting of File System (FAT, EXFAT, SDCARDFS, EXT4) on Samsung mobile’s proprietary platform.}
-%     \item {Enhanced performance of smart phones having low RAM by analyzing performance using blktrace and tuning kernel parameters. The code was merged in around 15 smart phones.}
-%     \end{description}
-%     \resumeItemListEnd
-% \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
-  \resumeSubheading
-    {VK Bot on PHP} {PHP, Python, VK API, PostgreSQL, Docker, Linux, Nginx}
-    {\href{https://github.com/mokaruuns/bot-recipes}{https://github.com/mokaruuns/bot-recipes}}{Dec 2022}
-    \resumeItemListStart
-      \resumeItem{Collecting data}{Parse site and get all recipes from it using Python and BeautifulSoup.}
-      \resumeItem{Creating database architecture}{Create database architecture using PostgreSQL for storing recipes and users data. Create tables and relations between them for fast and easy access to data.}
-      \resumeItem{Development}{Develop bot using PHP and VK API. Bot can send recipes to users by different parameters.}
-      \resumeItem{Deployment}{Deploy bot on server using Docker and Nginx.}
-    \resumeItemListEnd
-  
-  \resumeSubheading
-    {Research gradient descent algorithms} {Python, Jupyter Notebook, Numpy, Pandas, Matplotlib}
-    {\href{https://github.com/mokaruuns/optimization}{https://github.com/mokaruuns/optimization}}{Sep 2022}
-    \resumeItemListStart
-      \resumeItem{Implementation}{Implement Gradient Descent, Stochastic Gradient Descent and Mini-Batch Gradient Descent algorithms using Python and Numpy.}
-      \resumeItem{Testing and comparing}{Test and compare algorithms using different datasets.}
-      \resumeItem{Visualization}{Visualize results using Matplotlib.}
-  \resumeItemListEnd
+\resumeSubheading
+{VK Bot on PHP} {PHP, Python, VK API, PostgreSQL, Docker, Linux, Nginx}
+{\href{https://github.com/mokaruuns/bot-recipes}{https://github.com/mokaruuns/bot-recipes}}{Dec 2022}
+\resumeItemListStart
+\resumeItem{Data Retrieval}{Utilize Python and BeautifulSoup to parse a website and extract all recipes.}
+\resumeItem{Database Design}{Architect the database using PostgreSQL to efficiently store recipes and user data. Establish tables and relationships for rapid and convenient data access.}
+\resumeItem{Software Development}{Create a bot with PHP and VK API that can deliver recipes to users based on various parameters.}
+\resumeItem{Deployment}{Deploy the bot on a server using Docker and Nginx.}
+\resumeItemListEnd
 
-  \resumeSubheading
-    {Regex parser} {Java, Graphviz}
-    {\href{https://github.com/mokaruuns/parsing/tree/main/recursive-parsing}{https://github.com/mokaruuns/parsing/tree/main/recursive-parsing}}{Sep 2022}
-    \resumeItemListStart
-      \resumeItem{Creating grammar}{Create LL(1) grammar for regular expressions.}
-      \resumeItem{Implementation}{Implement a parser for a regular expression by grammar using Java.}
-      \resumeItem{Unit testing}{Test a parser using JUnit.}
-      \resumeItem{Visualization}{Automatically generate graphviz diagram for expressions.}
-    \resumeItemListEnd
+\resumeSubheading
+{Regex parser} {Java, Graphviz}
+{\href{https://github.com/mokaruuns/parsing/tree/main/recursive-parsing}{https://github.com/mokaruuns/parsing/tree/main/recursive-parsing}}{Sep 2022}
+\resumeItemListStart
+\resumeItem{Grammar Creation}{Develop an LL(1) grammar for regular expressions.}
+\resumeItem{Implementation}{Create a regular expression parser in Java based on the grammar.}
+\resumeItem{Unit Testing}{Test the parser thoroughly with JUnit.}
+\resumeItem{Visualization}{Automatically generate a graphviz diagram for expressions.}
+\resumeItemListEnd
 
-  
+
 \resumeSubHeadingListEnd
 
 %-----------Awards-----------------
 % \section{Honors and Awards}
 % \begin{description}[font=$\bullet$]
-% \item {Selected in top 20 students for the Code House event organized by VMware in August15 - August17, 2016.} 
+% \item {Selected in top 20 students for the Code House event organized by VMware in August15 - August17, 2016.}
 % \item {Ranked first among batch of 60 students in my Computer Science Engineering Branch.}
 % \item {Ranked fifth among batch of 500 students at High School Level A.I.S.S.E 2005}
 % \end{description}
@@ -201,5 +166,5 @@
 
 %-----------Summary-----------------
 \section{Summary}
-I'm a student of the third year of the master's program in Computer Science at ITMO University. I'm looking for an internship in the field of data science or backend development.
+I'm Marsel Akhmetov, a results-driven Junior PHP Developer at VK with 1 year of experience and a 4th-year student at ITMO University. Specializing and aspiring to excel in backend development with a keen interest in advancing towards roles in SWE/SRE. Additionally, I am adept in Python, exploring Go. Eager to transition to Junior+/Middle Python/PHP Developer roles, I'm good at working with a team, take responsibility seriously, and can adapt to new projects quickly. I'm excited about joining innovative teams, always ready to learn, and committed to providing practical solutions. Thanks for considering my application.
 \end{document}
