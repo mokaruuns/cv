@@ -1,3 +1,14 @@
+# CV
+
+This repository contains the latest version of my CV.
+
 ## English version
-- [pdf](en/marsel_akhmetov.pdf) - actual version
-- [tex](en/marsel_akhmetov.tex) - latex source for pdf
+
+- [PDF](en/marsel_akhmetov.pdf)
+- [LaTeX source](en/marsel_akhmetov.tex)
+
+## Contacts
+
+- [LinkedIn](https://www.linkedin.com/in/marsel-akhmetov/)
+- [GitHub](https://github.com/mokaruuns)
+- [Telegram](https://t.me/mokaruuns)

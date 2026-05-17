@@ -58,8 +58,8 @@
 \newcommand{\resumeSubheading}[4]{
     \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-        \textbf{#1}       & #2                 \\
-        \textit{\small#3} & \textit{\small #4} \\
+    \textbf{#1}       & #2                 \\
+    \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -79,87 +79,108 @@
 \begin{document}
 
 %----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
 \textbf{{\LARGE Marsel Akhmetov}} & Email : \href{mailto:marsel.ahmetov974@gmail.com}{marsel.ahmetov974@gmail.com}\\
 \href{https://www.linkedin.com/in/marsel-akhmetov/}{Linkedin: https://www.linkedin.com/in/marsel-akhmetov/} & Mobile : +7-900-628-33-27 \\
 \href{https://github.com/mokaruuns}{Github: https://github.com/mokaruuns} \\
 \href{https://t.me/mokaruuns}{Telegram: https://t.me/mokaruuns} \\
-\end{tabular*}
+    \end{tabular*}
 
 %-----------Summary-----------------
-\section{Summary}
-PHP/Go Developer with over 1.5 years of experience at VK, specializing in backend development. Graduated in Applied Mathematics and Computer Science from ITMO University. Skilled in PHP, Go, and Python, I am seeking Middle Python/Go Developer roles to apply my technical expertise. I excel in team collaboration, adapt quickly to new challenges, and focus on delivering effective, scalable solutions.
+    \section{Summary}
+    Golang Backend Developer with 3+ years of commercial backend experience, focused on fintech systems, data consistency, and reliable service integrations. Experienced in Go, PostgreSQL, Kafka, gRPC, microservices, event-driven processing, and production support. Worked on business-critical workflows involving idempotent processing, failure handling, observability, complex domain logic, and ownership from design to production.
 
 %--------SKILLS------------
-\section{Skills Summary}
-\resumeSubHeadingListStart
-\resumeSubItem{Programming Languages}{Go, Python, PHP, Java}
-\resumeSubItem{Containers and Deployment}{Docker, Kubernetes, CI/CD}
-\resumeSubItem{Databases/Streaming Platforms}{MySQL, Clickhouse, Tarantool, Kafka}
-\resumeSubItem{Web Development}{REST, GraphQL, Nginx}
-\resumeSubItem{Monitoring/Log Analysis Tools}{Grafana, Prometheus}
-\resumeSubHeadingListEnd
+    \section{Skills Summary}
+    \resumeSubHeadingListStart
+    \resumeSubItem{Languages}{Go, PHP, Python, SQL}
+    \resumeSubItem{Backend}{Microservices, gRPC, REST, API design, background workers}
+    \resumeSubItem{Data and Messaging}{PostgreSQL, ClickHouse, MySQL, Kafka, database migrations, query optimization}
+    \resumeSubItem{Reliability}{Transactional outbox, idempotent processing, retries, monitoring, alerting, incident analysis}
+    \resumeSubItem{Infrastructure}{Docker, Kubernetes, CI/CD, Linux}
+    \resumeSubItem{Engineering Practices}{System design, DDD, code review, integration testing, production support}
+    \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 
-\section{Education}
-\resumeSubHeadingListStart
-\resumeSubheading
-{ITMO University}{St. Petersburg, Russia}
-{Bachelor of Science in Applied Mathematics and Computer Science}{Sep 2020 - Jun 2024}
-\resumeSubHeadingListEnd
+    \section{Education}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+    {ITMO University}{Saint-Petersburg, Russia}
+    {Bachelor's degree in Applied Mathematics and Computer Science}{Sep 2020 - Jun 2024}
+    \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
-\section{Experience}
-\resumeSubHeadingListStart
+    \section{Experience}
+    \resumeSubHeadingListStart
 
-\resumeSubheading
-{ITMO University}{Saint-Petersburg, Russia}
-{Teaching Assistant (Software Design Course)}{Sep 2024 - Current}
-\resumeItemListStart
-\resumeItem{Software Design Course}{Assist students with software design, providing mentorship on real-world development practices.}
-\resumeItemListEnd
+    \resumeSubheading
+    {Fintech / Banking Company}{Saint-Petersburg, Russia}
+    {Golang Backend Developer}{Nov 2024 - Present}
+    \resumeItemListStart
+    \resumeItem{Credit Portfolio and Risk Systems}
+    {Design and develop Go backend services for credit portfolio management, risk-related workflows, and regulatory processes where data correctness and process ordering are critical.}
+    \resumeItem{Kafka and gRPC Integrations}
+    {Implement service-to-service integrations using Kafka, gRPC, and PostgreSQL, including event consumers, producers, API contracts, persistence logic, and failure handling.}
+    \resumeItem{Reliable Event Processing}
+    {Built idempotent processing flows with status tracking, batching, retries, and error handling for business-critical long-running operations.}
+    \resumeItem{Day-Close Process Reliability}
+    {Contributed to synchronization logic for day-close processing, reducing the risk of inconsistent portfolio-related data between internal and downstream systems.}
+    \resumeItem{Portfolio Rule Model}
+    {Reworked complex portfolio rule handling into a clearer domain model, improving readability, reviewability, and safety of future business changes.}
+    \resumeItem{Engineering Practices}
+    {Participate in architecture discussions, database design, SQL optimization, integration testing, code reviews, monitoring, and production incident analysis.}
+    \resumeItemListEnd
 
-\resumeSubheading
-{VK, MyTracker}{Saint-Petersburg, Russia}
-{Junior Backend Developer}{March 2022 - Sep 2024}
-\resumeItemListStart
-\resumeItem{Infrastructure Monitoring with Jira Integration}
-{Improved internal monitoring by integrating Jira, enhancing data collection and speeding up analysis during incidents.}
-\resumeItem{Task Reporting System}
-{Developed a reporting system using PHP and Symfony, integrated with Jira for better task management and team performance monitoring.}
-\resumeItem{VKTeams Bot for Duty Management}
-{Created a Go-based bot to streamline duty shifts, improving task context transfer and communication.}
-\resumeItem{Support for Data Pipeline Processing}
-{Supported data pipeline processing handling up to 1TB of data per hour, ensuring efficient data flow and analysis.}
-\resumeItemListEnd
-{Focused on backend development, improving data processing, API development, and ETL processes. Actively participated in the migration to Kubernetes and resolved production incidents.}
+    \resumeSubheading
+    {ITMO University}{Saint-Petersburg, Russia}
+    {Teaching Assistant}{Sep 2024 - Present}
+    \resumeItemListStart
+    \resumeItem{Software Design Course}
+    {Mentor students on DDD, domain modeling, use cases, bounded contexts, event-driven design, architecture decomposition, and maintainable backend implementation.}
+    \resumeItem{Highload Systems Course}
+    {Mentor students on practical backend performance cases covering load testing, backpressure, rate limiting, retries, timeouts, async processing, thread pools, and troubleshooting.}
+    \resumeItem{Code and Design Review}
+    {Review assignments and provide feedback on architecture decisions, code quality, concurrency issues, metrics analysis, and implementation correctness.}
+    \resumeItemListEnd
 
-\resumeSubHeadingListEnd
+    \resumeSubheading
+    {VK, MyTracker}{Saint-Petersburg, Russia}
+    {Junior Backend Developer}{March 2022 - Sep 2024}
+    \resumeItemListStart
+    \resumeItem{Internal Backend Tools}
+    {Developed internal backend tools using PHP, Symfony, and Go for monitoring, reporting, task tracking, and operational workflows.}
+    \resumeItem{Automation and Integrations}
+    {Built Jira integrations and a Go-based VK Teams bot to improve duty management, incident handovers, and engineering communication.}
+    \resumeItem{Data Processing and Production Support}
+    {Supported data pipeline processing handling up to 1TB of data per hour, participated in Kubernetes migration, and resolved production incidents.}
+    \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
-\section{Projects}
-\resumeSubHeadingListStart
-\resumeSubheading
-{VK Bot on PHP} {PHP, Python, VK API, PostgreSQL, Docker, Linux, Nginx}
-{\href{https://github.com/mokaruuns/bot-recipes}{https://github.com/mokaruuns/bot-recipes}}{Dec 2022}
-\resumeItemListStart
-\resumeItem{Data Retrieval}{Utilize Python and BeautifulSoup to parse a website and extract all recipes.}
-\resumeItem{Database Design}{Architect the database using PostgreSQL to efficiently store recipes and user data. Establish tables and relationships for rapid and convenient data access.}
-\resumeItem{Software Development}{Create a bot with PHP and VK API that can deliver recipes to users based on various parameters.}
-\resumeItem{Deployment}{Deploy the bot on a server using Docker and Nginx.}
-\resumeItemListEnd
+% \section{Projects}
+% \resumeSubHeadingListStart
+% \resumeSubheading
+% {VK Bot on PHP} {PHP, Python, VK API, PostgreSQL, Docker, Linux, Nginx}
+% {\href{https://github.com/mokaruuns/bot-recipes}{https://github.com/mokaruuns/bot-recipes}}{Dec 2022}
+% \resumeItemListStart
+% \resumeItem{Data Retrieval}{Utilize Python and BeautifulSoup to parse a website and extract all recipes.}
+% \resumeItem{Database Design}{Architect the database using PostgreSQL to efficiently store recipes and user data. Establish tables and relationships for rapid and convenient data access.}
+% \resumeItem{Software Development}{Create a bot with PHP and VK API that can deliver recipes to users based on various parameters.}
+% \resumeItem{Deployment}{Deploy the bot on a server using Docker and Nginx.}
+% \resumeItemListEnd
 
-\resumeSubheading
-{Regex parser} {Java, Graphviz}
-{\href{https://github.com/mokaruuns/parsing/tree/main/recursive-parsing}{https://github.com/mokaruuns/parsing/tree/main/recursive-parsing}}{Sep 2022}
-\resumeItemListStart
-\resumeItem{Grammar Creation}{Develop an LL(1) grammar for regular expressions.}
-\resumeItem{Implementation}{Create a regular expression parser in Java based on the grammar.}
-\resumeItem{Unit Testing}{Test the parser thoroughly with JUnit.}
-\resumeItem{Visualization}{Automatically generate a graphviz diagram for expressions.}
-\resumeItemListEnd
+% \resumeSubheading
+% {Regex parser} {Java, Graphviz}
+% {\href{https://github.com/mokaruuns/parsing/tree/main/recursive-parsing}{https://github.com/mokaruuns/parsing/tree/main/recursive-parsing}}{Sep 2022}
+% \resumeItemListStart
+% \resumeItem{Grammar Creation}{Develop an LL(1) grammar for regular expressions.}
+% \resumeItem{Implementation}{Create a regular expression parser in Java based on the grammar.}
+% \resumeItem{Unit Testing}{Test the parser thoroughly with JUnit.}
+% \resumeItem{Visualization}{Automatically generate a graphviz diagram for expressions.}
+% \resumeItemListEnd
 
-\resumeSubHeadingListEnd
+% \resumeSubHeadingListEnd
 \end{document}
